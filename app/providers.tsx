@@ -3,10 +3,11 @@
 import { SessionProvider } from 'next-auth/react'
 import { ReactNode } from 'react'
 
-/**
- * @param {{ children: React.ReactNode }} props
- */
-export function Providers({ children }) {
+interface ProvidersProps {
+  children: ReactNode
+}
+
+export function Providers({ children }: ProvidersProps) {
   return (
     <SessionProvider>
       {children}
