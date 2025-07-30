@@ -105,9 +105,9 @@ export default function ContactPage() {
     },
   ];
 
-  const toggleFAQ = (index: number) => {
-    setOpenFAQ(openFAQ === index ? null : index);
-  };
+  // const toggleFAQ = (index: number) => {
+  //   setOpenFAQ(openFAQ === index ? null : index);
+  // };
 
   return (
     <div className="min-h-screen bg-[#E5E7EB]">
